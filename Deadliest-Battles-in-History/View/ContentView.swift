@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Deadliest-Battles-in-History
+//  app
 //
 //  Created by Duong, Bui Dang Dac on 25/07/2022.
 //
@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      BattleList()
     }
 }
 

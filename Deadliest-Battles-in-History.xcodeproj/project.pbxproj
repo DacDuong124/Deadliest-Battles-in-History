@@ -11,6 +11,12 @@
 		36AF91AD288ED02B00D0AF72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91AC288ED02B00D0AF72 /* ContentView.swift */; };
 		36AF91AF288ED02C00D0AF72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AF91AE288ED02C00D0AF72 /* Assets.xcassets */; };
 		36AF91B2288ED02C00D0AF72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AF91B1288ED02C00D0AF72 /* Preview Assets.xcassets */; };
+		36AF91BB288ED05C00D0AF72 /* BattleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91BA288ED05C00D0AF72 /* BattleRow.swift */; };
+		36AF91BD288ED07D00D0AF72 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */; };
+		36AF91BF288ED0A700D0AF72 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91BE288ED0A700D0AF72 /* Battle.swift */; };
+		36AF91C1288ED0C000D0AF72 /* BattleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91C0288ED0C000D0AF72 /* BattleData.swift */; };
+		36AF91C3288ED12300D0AF72 /* BattleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91C2288ED12300D0AF72 /* BattleList.swift */; };
+		36AF91C5288ED49200D0AF72 /* BattleDescriptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		36AF91AC288ED02B00D0AF72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36AF91AE288ED02C00D0AF72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36AF91B1288ED02C00D0AF72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36AF91BA288ED05C00D0AF72 /* BattleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleRow.swift; sourceTree = "<group>"; };
+		36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		36AF91BE288ED0A700D0AF72 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		36AF91C0288ED0C000D0AF72 /* BattleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleData.swift; sourceTree = "<group>"; };
+		36AF91C2288ED12300D0AF72 /* BattleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleList.swift; sourceTree = "<group>"; };
+		36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleDescriptionCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				36AF91AA288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift */,
-				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
-				36AF91AE288ED02C00D0AF72 /* Assets.xcassets */,
+				36AF91B8288ED03400D0AF72 /* Model */,
+				36AF91B9288ED03B00D0AF72 /* View */,
 				36AF91B0288ED02C00D0AF72 /* Preview Content */,
 			);
 			path = "Deadliest-Battles-in-History";
@@ -65,6 +77,28 @@
 				36AF91B1288ED02C00D0AF72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		36AF91B8288ED03400D0AF72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36AF91BE288ED0A700D0AF72 /* Battle.swift */,
+				36AF91C0288ED0C000D0AF72 /* BattleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36AF91B9288ED03B00D0AF72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
+				36AF91BA288ED05C00D0AF72 /* BattleRow.swift */,
+				36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */,
+				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
+				36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */,
+				36AF91AE288ED02C00D0AF72 /* Assets.xcassets */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36AF91C5288ED49200D0AF72 /* BattleDescriptionCard.swift in Sources */,
+				36AF91C3288ED12300D0AF72 /* BattleList.swift in Sources */,
+				36AF91BB288ED05C00D0AF72 /* BattleRow.swift in Sources */,
+				36AF91C1288ED0C000D0AF72 /* BattleData.swift in Sources */,
 				36AF91AD288ED02B00D0AF72 /* ContentView.swift in Sources */,
 				36AF91AB288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift in Sources */,
+				36AF91BF288ED0A700D0AF72 /* Battle.swift in Sources */,
+				36AF91BD288ED07D00D0AF72 /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
