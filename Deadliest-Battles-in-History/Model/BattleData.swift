@@ -8,15 +8,15 @@
 import Foundation
 
 var battles:[Battle] = [
-    Battle(name: "Siege Of Leningrad, 1941-1944 ", imageName: "leningrad"),
-    Battle(name: "The Somme, 1916", imageName: "somme"),
-    Battle(name: "Stalingrad, 1942-1943 ", imageName: "ichigo-small"),
-    Battle(name: "Ichi-Go, 1944", imageName: "ichigo-small"),
-    Battle(name: "Taking Of Berlin, 1945", imageName: "00.leningrad"),
-    Battle(name: "Operation Barbarossa, 1941", imageName: "00.leningrad"),
-    Battle(name: "German Spring Offensive, 1918", imageName: "00.leningrad"),
-    Battle(name: "Dnieper, 1943", imageName: "00.leningrad"),
-    Battle(name: "Brusilov, 1916", imageName: "00.leningrad"),
-    Battle(name: "Mongol Sacking Of Baghdad, 1258", imageName: "00.leningrad")
+    Battle(name: "Siege Of Leningrad, 1941-1944 ", description: " ", imageName: "leningrad"),
+    Battle(name: "The Somme, 1916", description: " ", imageName: "somme"),
+    Battle(name: "Stalingrad, 1942-1943 ", description: " ", imageName: "stalingrad"),
+    Battle(name: "Ichi-Go, 1944", description: " ", imageName: "ichi-go"),
+    Battle(name: "Battle Of Berlin, 1945", description: " ", imageName: "berlin"),
+    Battle(name: "Operation Barbarossa, 1941", description: " ", imageName: "barbarossa"),
+    Battle(name: "German Spring Offensive, 1918", description: " ", imageName: "springOffensive"),
+    Battle(name: "Battle Of Dnieper, 1943", description: " ", imageName: "dnieper"),
+    Battle(name: "Brusilov Offensive, 1916", description: " ", imageName: "brusilov"),
+    Battle(name: "Mongol Sacking Of Baghdad, 1258", description: " ", imageName: "baghdad")
 
 ]

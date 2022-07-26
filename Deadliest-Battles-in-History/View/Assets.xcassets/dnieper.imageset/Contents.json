@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "ichigo-small.jpeg",
+      "filename" : "dnieper.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ichigo-small@2x.jpeg",
+      "filename" : "dnieper@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ichigo-small@3x.jpeg",
+      "filename" : "dnieper@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
