@@ -38,20 +38,19 @@ struct BattleDescriptionCard: View {
                     
                     
                 })
-                    .navigationTitle(battle.title)
-                    .navigationBarTitleDisplayMode(.inline)
 
-                    .navigationBarHidden(true)
                 
             })
                 .edgesIgnoringSafeArea(.top)
 
         }
+        .navigationTitle(battle.title)
+        .navigationBarTitleDisplayMode(.inline)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 struct BattleDescriptionCard_Previews: PreviewProvider {
     static var previews: some View {
-        BattleDescriptionCard(battle: battles[5])
+        BattleDescriptionCard(battle: battles[9])
     }
 }

@@ -15,28 +15,30 @@ struct DescriptionView: View {
     var body: some View {
         Rectangle()
             .fill(.cyan)
-            .frame(height:680)
+            .frame(height: 1000)
             .overlay(
-                HStack{
+                VStack{
                     Image(systemName: imageName)
                         .foregroundColor(.red)
                     Text(text)
                         .foregroundColor(.black)
+                        .padding(10)
+
                 }
             )
+
     }
 }
 
 struct DescriptionView_Previews: PreviewProvider {
     static var previews: some View {
         DescriptionView(text: """
-One of the largest military operations in the history of mankind, the Operation Barbarossa was launched by Hitler on June 22, 1941 against the Soviet Union.
+The Somme Offensive, or the Battle of the Somme, was an epic World War I battle fought in Somme, France, by the British and French forces against those of the Germans.
 
-Over 3 million Axis troops and 3,500 tanks were directed into the Soviet Union, with the aim to capture the Baltic states and Leningrad in the North and Moscow in the center, as well as the economic resources of the Soviet Union that lay to the southern extents of the campaign.
+It occurred between July 1st, 1916 and November 18th, 1916. The battle claimed the lives of nearly 1.12 million civilians and military men. The first day of the Somme battle was one of the worst days in the history of the British Army, as around 57,470 British soldiers lost their lives.
+This day also marked the defeat for the German Second Army, who were driven out of their positions by the French Sixth Army.
 
-Germany’s major victory over France had encouraged the Axis Forces to plan the Barbarossa operation. Though the strong German forces were able to subdue the unprepared Soviet troops at the beginning, leading to heavy losses in terms of Russian life, territory, and fighting supplies, the Soviets were not ready to give up.
-
-Thus, towards the end of Operation Barbarossa, the German forces were met with heavy retaliation from the Soviet troops, this time leading to heavy losses on the German side of the front lines. Nearly 1.4 million fatal casualties occurred during this death-dealing operation.
+The battle was known for its focus on air power and, towards the end, the Allied forces managed to penetrate 6 miles into German-occupied territories.
 """, imageName: "book.fill")
         
     }
