@@ -14,7 +14,7 @@ struct BattleRow: View {
             battle.image
                 .resizable()
                 .frame(width: 100, height: 50)
-            Text(battle.name)
+            Text(battle.title)
         }
     }
 }

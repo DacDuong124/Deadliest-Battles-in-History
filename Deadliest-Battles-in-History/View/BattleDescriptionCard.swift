@@ -10,16 +10,48 @@ import SwiftUI
 struct BattleDescriptionCard: View {
     var battle: Battle
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-            .navigationTitle(battle.name)
-            .navigationBarTitleDisplayMode(.inline)
-            .foregroundColor(.white)
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: true, content: {
+                VStack(alignment: .center, spacing: 30, content: {
+                    
+                    //Header
+                    BattleHeaderView(battle: battle)
+                    
+                    VStack(alignment: .leading, spacing: 20, content:{
+                        //Title
+                        Text(battle.title)
+                            .font(.largeTitle)
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
+                        
+                        //Overall Information
+                        
+                        
+                        //Description
+                        DescriptionView(text: battle.description, imageName: "book.fill")
+                        
+                        //Link
+                        
+                    })
+                    .padding(.horizontal,5)
+                    .frame(maxWidth: 700, alignment: .center)
+                    
+                    
+                })
+                    .navigationTitle(battle.title)
+                    .navigationBarTitleDisplayMode(.inline)
+
+                    .navigationBarHidden(true)
+                
+            })
+                .edgesIgnoringSafeArea(.top)
+
+        }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
-
 struct BattleDescriptionCard_Previews: PreviewProvider {
     static var previews: some View {
-        BattleDescriptionCard(battle: battles[0])
+        BattleDescriptionCard(battle: battles[5])
     }
 }

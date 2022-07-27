@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Battle: Identifiable{
     var id = UUID()
-    var name: String
+    var title: String
     var description: String
     
     var imageName: String
