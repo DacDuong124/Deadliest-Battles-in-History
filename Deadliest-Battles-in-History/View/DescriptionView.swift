@@ -13,19 +13,25 @@ struct DescriptionView: View {
     
     
     var body: some View {
-        Rectangle()
-            .fill(.cyan)
-            .frame(height: 1000)
-            .overlay(
-                VStack{
-                    Image(systemName: imageName)
-                        .foregroundColor(.red)
-                    Text(text)
-                        .foregroundColor(.black)
-                        .padding(10)
+        //Z
+        ZStack{
+            Color(.cyan)
+            VStack{
+                Image(systemName: imageName)
+                    .foregroundColor(.red)
+                Text(text)
+                    .foregroundColor(.black)
+                    .padding(20)
 
-                }
-            )
+            }
+        }
+
+//        Rectangle()
+//            .fill(.cyan)
+//            .frame(height: 1000)
+//            .overlay(
+//
+//            )
 
     }
 }

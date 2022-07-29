@@ -15,7 +15,7 @@ struct BattleHeaderView: View {
             Image(battle.imageName)
                 .resizable()
 //                .scaledToFit()
-                .padding(.horizontal, 10)
+                .padding(15)
             
         }
         .frame(height: 350)

@@ -96,12 +96,12 @@
 		36AF91B9288ED03B00D0AF72 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
 				36906CF42891431400CC2BA1 /* BattleHeaderView.swift */,
 				36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */,
 				36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */,
-				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
 				36AF91BA288ED05C00D0AF72 /* BattleRow.swift */,
+				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
+				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
 				36AF91AE288ED02C00D0AF72 /* Assets.xcassets */,
 			);
 			path = View;
