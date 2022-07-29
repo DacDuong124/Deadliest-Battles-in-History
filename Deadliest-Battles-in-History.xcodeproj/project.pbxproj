@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36501BEB2893D55F0030EFCB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36501BEA2893D55F0030EFCB /* SummaryView.swift */; };
 		36906CF52891431400CC2BA1 /* BattleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36906CF42891431400CC2BA1 /* BattleHeaderView.swift */; };
 		36AF91AB288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91AA288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift */; };
 		36AF91AD288ED02B00D0AF72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91AC288ED02B00D0AF72 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36501BEA2893D55F0030EFCB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		36906CF42891431400CC2BA1 /* BattleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleHeaderView.swift; sourceTree = "<group>"; };
 		36AF91A7288ED02B00D0AF72 /* Deadliest-Battles-in-History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deadliest-Battles-in-History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AF91AA288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deadliest_Battles_in_HistoryApp.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				36906CF42891431400CC2BA1 /* BattleHeaderView.swift */,
 				36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */,
+				36501BEA2893D55F0030EFCB /* SummaryView.swift */,
 				36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */,
 				36AF91BA288ED05C00D0AF72 /* BattleRow.swift */,
 				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
@@ -187,6 +190,7 @@
 				36AF91AB288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift in Sources */,
 				36AF91BD288ED07D00D0AF72 /* DescriptionView.swift in Sources */,
 				36906CF52891431400CC2BA1 /* BattleHeaderView.swift in Sources */,
+				36501BEB2893D55F0030EFCB /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

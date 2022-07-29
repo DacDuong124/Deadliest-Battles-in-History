@@ -24,7 +24,8 @@ struct BattleDescriptionCard: View {
                             .fontWeight(.heavy)
                             .foregroundColor(.black)
                         
-                        //Overall Information
+                        //Summary bar
+                        SummaryView(battle: battle)
                         
                         
                         //Description
