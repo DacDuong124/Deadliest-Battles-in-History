@@ -9,9 +9,9 @@ import Foundation
 
 var battles:[Battle] = [
     
-    Battle(title: "Siege Of Leningrad, 1941-1944 ", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "East Germany", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Siege Of Leningrad, 1941-1944 ", summary: ["8 September 1941 – 27 January 1944 (2 years, 4 months, 2 weeks and 5 days)", "Leningrad, Russian SFSR, Soviet Union", "Soviet Union Victory (Siege lifted by Soviet forces)", "Axis forces are repelled 60–100 km (37–62 mi) away from Leningrad.", "Soviet Union - Nazi Germany", "1.5 Millions"],
            description:"""
-The Siege of Leningrad marks one of the darkest periods of World War II, as German and Finnish armed forces sieged the city of Leningrad in the Soviet Union, leading to 1.12 million casualties over a period of around 872 days. The siege began on September 8, 1941 and continued until January 27, 1944.
+The Siege of Leningrad marks one of the darkest periods of World War II, as German and Finnish armed forces sieged the city of Leningrad in the Soviet Union, leading to 1.5 million casualties over a period of around 872 days. The siege began on September 8, 1941 and continued until January 27, 1944.
            
 Though Leningrad put up its own defenses in retaliation to the approaching German and Finnish forces, by November of 1941 the city had been almost completely encircled by the enemy troops. Vital supplies to the city were cut off, and the inhabitants suffered terribly, with 650,000 Leningraders dying in 1942 alone.
            
@@ -22,7 +22,7 @@ In 1943, Soviet troops managed to rupture the German encirclement, allowing more
            imageName: "leningrad"),
    
     
-    Battle(title: "The Somme, 1916", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "The Somme, 1916", summary: ["1 July 1916 – 18 November 1916 (141 days)", "Somme River, France", "Indecisive", "Bulge driven into the Noyon salient", "France, British Empire - German Empire", "1.12 Millions"],
            description:"""
 The Somme Offensive, or the Battle of the Somme, was an epic World War I battle fought in Somme, France, by the British and French forces against those of the Germans. It occurred between July 1st, 1916 and November 18th, 1916. The battle claimed the lives of nearly 1.12 million civilians and military men.
 
@@ -34,7 +34,7 @@ The battle was known for its focus on air power and, towards the end, the Allied
     
     
     
-    Battle(title: "Stalingrad, 1942-1943 ", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Battle Of Stalingrad, 1942-1943", summary: ["23 August 1942 – 2 February 1943 (5 months, 1 week and 3 days)", "Stalingrad, Russian SFSR, Soviet Union", "Soviet Union Victory", "Expulsion of the Axis from the Caucasus", "Soviet Union - Nazi Germany, Romania, Italy, Croatia", "1.25 Millions"],
            description:"""
 The Battle of Stalingrad marked a significant turning point in World War II, as the German forces suffered a massive attack and defeat in Russia. The battle ensued when Hitler ordered his troops, who were advancing towards the Caucasus, to move back and attack the Russian city of Stalingrad.
 
@@ -46,7 +46,7 @@ The consequences were deadly, as the rival forces fought fiercely, often engagin
     
     
     
-    Battle(title: "Ichi-Go, 1944", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Ichi-Go, 1944", summary: ["19 April – 31 December 1944 (8 months, 12 days)", "Henan, Hunan and Guangxi, China", "Japanese Victory", "Japanese controlled the cities, but not surrounding countrysides", "China, USA - Japan", "1.3 Millions"],
            description:"""
 The Operation Ichi-Go, which resulted in almost 1.3 million casualties, was launched by the Japanese forces on April 19, 1944.
 
@@ -70,7 +70,7 @@ The Russians' arrival and taking of Berlin before the Americans could arrive wou
 """,
            imageName: "berlin"),
     
-    Battle(title: "Operation Barbarossa, 1941", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Operation Barbarossa, 1941", summary: ["22 June 1941 – 7 January 1942 (6 months, 2 weeks and 2 days)", "Central, Northeast, Eastern Europe", "Axis failure", "Opening of the Eastern Front for the Soviet Union", "Soviet Union, UK - Nazi Germany, Romania, Finland, Italy, Hungary, Slovakia", "1.4 Millions"],
            description: """
 One of the largest military operations in the history of mankind, the Operation Barbarossa was launched by Hitler on June 22, 1941 against the Soviet Union.
 
@@ -82,7 +82,7 @@ Thus, towards the end of Operation Barbarossa, the German forces were met with h
 """,
            imageName: "barbarossa"),
     
-    Battle(title: "German Spring Offensive, 1918", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "German Spring Offensive, 1918", summary: ["21 March – 18 July 1918     (119 days)", "Northern France; West Flanders, Belgium", "Indecisive", "German armies make gains along sections of the Western Front.", "France, UK, US, Italy, Belgium - German Empire", "1.55 Millions"],
            description: """
 During the final parts of World War I, the Germans launched a series of attacks, referred to as the Spring Offensive, on the Western Front, starting on March 21st, 1918.
 
@@ -92,7 +92,7 @@ However, retaliation by a powerful Allied army, the inability to move German sup
 """,
            imageName: "springOffensive"),
     
-    Battle(title: "Battle Of Dnieper, 1943", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Battle Of Dnieper, 1943", summary: ["26 August 1943 – 23 December 1943 (3 months, 3 weeks and 6 days)", "Dnieper River, Soviet Union", "Soviet Union Victory", "Soviets reclaim left-bank Ukraine, including the city of Kiev and Donets basin", "Soviet Union - Nazi Germany", "1.58 Millions"],
            description: """
 In 1943, the Battle of the Dnieper, one of the largest of all World War II operations, was launched, involving as many as 4,000,000 troops on both sides, and stretching across 1,400 kilometers of the Eastern Front.
 
@@ -102,7 +102,7 @@ The fatal casualties of the battle were as high as 1.58 million, proving this to
 """,
            imageName: "dnieper"),
     
-    Battle(title: "Brusilov Offensive, 1916", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Brusilov Offensive, 1916", summary: ["4 June – 20 September 1916 (3 months and 16 days)", "Galicia, present-day western Ukraine.", "Russian Victory", "None", "Russian Empire - Austria Hungary, German Empire, Ottoman Empire", "1.6 Millions"],
            description: """
 The Brusilov Offensive, which took place between June and August of 1916, was a major success for the Russians, who had until then mostly suffered large defeats at the hands of the German forces and their Central Power allies.
 
@@ -116,7 +116,7 @@ Finally, with Russian resources beginning to run out, the Brusilov Offensive cam
 """,
            imageName: "brusilov"),
     
-    Battle(title: "Mongol Sacking Of Baghdad, 1258", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Mongol Sacking Of Baghdad, 1258", summary: ["29 January – 10 February 1258 (13 days)", "Baghdad, modern-day Iraq", "Mongol Victory", "Mongol occupied and rebuild Banghdad", "Abbasid Caliphate of Baghdad - Mongol Empire", "2 Millions"],
            description: """
 Though the previous nine deadly battles all belonged to the World War I and World War II eras, the most treacherous recorded battle in the history of the world in terms of death tolls was waged a much longer time back.
 

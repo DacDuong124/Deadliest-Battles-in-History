@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SummaryView: View {
     var battle: Battle
-    let summary = ["Date", "Location","Result", "Territorial Changes","Belligerents","Casualties"]
+    let summary = ["Date", "Location","Result", "Territorial Changes","Belligerents","Total Casualties"]
     var body: some View {
         GroupBox(){
             DisclosureGroup("Summary")
