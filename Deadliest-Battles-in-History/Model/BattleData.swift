@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 var battles:[Battle] = [
     
@@ -19,7 +20,7 @@ Starvation, disease, and shelling activities by the enemy forces were all partia
            
 In 1943, Soviet troops managed to rupture the German encirclement, allowing more supplies to reach the city. Finally, in January of 1944, the Soviet Army drove out the Germans and pushed them westward, ending the siege of the city.
 """,
-           imageName: "leningrad"),
+           imageName: "leningrad", locationCoordinate: CLLocationCoordinate2D(latitude: 59.930248, longitude: 30.319061)),
    
     
     Battle(title: "The Somme, 1916", summary: ["1 July 1916 – 18 November 1916 (141 days)", "Somme River, France", "Indecisive", "Bulge driven into the Noyon salient", "France, British Empire - German Empire", "1.12 Millions"],
@@ -30,7 +31,7 @@ The first day of the Somme battle was one of the worst days in the history of th
 
 The battle was known for its focus on air power and, towards the end, the Allied forces managed to penetrate 6 miles into German-occupied territories.
 """,
-           imageName: "somme"),
+           imageName: "somme", locationCoordinate: CLLocationCoordinate2D(latitude: 50.015556, longitude: 2.6975)),
     
     
     
@@ -42,7 +43,7 @@ Probably his extreme hatred for the Russian dictator Joseph Stalin triggered his
 
 The consequences were deadly, as the rival forces fought fiercely, often engaging in hand to hand combat as they tried to capture and recapture individual streets. The battle ended with a severe defeat suffered by the German troops, who were then forced into a full retreat from the area. 1.25 million precious lives were lost in the Battle of Stalingrad.
 """,
-           imageName: "stalingrad"),
+           imageName: "stalingrad", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     
     
@@ -56,7 +57,7 @@ The other objective was the destruction of food supplies and crops in order to w
 
 
 """,
-           imageName: "ichi-go"),
+           imageName: "ichi-go", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     Battle(title: "Battle Of Berlin, 1945", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
            description: """
@@ -68,7 +69,7 @@ Finally, the Russian troops emerged victorious, and the 'Fuhrer', knowing his la
 
 The Russians' arrival and taking of Berlin before the Americans could arrive would have a huge geopolitical impact in the US-USSR Cold War in the decades to follow.
 """,
-           imageName: "berlin"),
+           imageName: "berlin", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     Battle(title: "Operation Barbarossa, 1941", summary: ["22 June 1941 – 7 January 1942 (6 months, 2 weeks and 2 days)", "Central, Northeast, Eastern Europe", "Axis failure", "Opening of the Eastern Front for the Soviet Union", "Soviet Union, UK - Nazi Germany, Romania, Finland, Italy, Hungary, Slovakia", "1.4 Millions"],
            description: """
@@ -80,7 +81,7 @@ Germany’s major victory over France had encouraged the Axis Forces to plan the
 
 Thus, towards the end of Operation Barbarossa, the German forces were met with heavy retaliation from the Soviet troops, this time leading to heavy losses on the German side of the front lines. Nearly 1.4 million fatal casualties occurred during this death-dealing operation.
 """,
-           imageName: "barbarossa"),
+           imageName: "barbarossa", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     Battle(title: "German Spring Offensive, 1918", summary: ["21 March – 18 July 1918     (119 days)", "Northern France; West Flanders, Belgium", "Indecisive", "German armies make gains along sections of the Western Front.", "France, UK, US, Italy, Belgium - German Empire", "1.55 Millions"],
            description: """
@@ -90,7 +91,7 @@ There were four German offensive spearheads participating in this operation. 'Mi
 
 However, retaliation by a powerful Allied army, the inability to move German supplies and reinforcements, and heavy casualties on the German side, led to the retreat of the German troops by late April of 1918. Around 1.55 million lives were lost in this battle.
 """,
-           imageName: "springOffensive"),
+           imageName: "springOffensive", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     Battle(title: "Battle Of Dnieper, 1943", summary: ["26 August 1943 – 23 December 1943 (3 months, 3 weeks and 6 days)", "Dnieper River, Soviet Union", "Soviet Union Victory", "Soviets reclaim left-bank Ukraine, including the city of Kiev and Donets basin", "Soviet Union - Nazi Germany", "1.58 Millions"],
            description: """
@@ -100,7 +101,7 @@ During this war, the Red Army managed to recover the eastern bank of the Dnieper
 
 The fatal casualties of the battle were as high as 1.58 million, proving this to be one of the costliest battles during World War II
 """,
-           imageName: "dnieper"),
+           imageName: "dnieper", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     Battle(title: "Brusilov Offensive, 1916", summary: ["4 June – 20 September 1916 (3 months and 16 days)", "Galicia, present-day western Ukraine.", "Russian Victory", "None", "Russian Empire - Austria Hungary, German Empire, Ottoman Empire", "1.6 Millions"],
            description: """
@@ -114,7 +115,7 @@ His wish was granted, and thusly Brusilov led his offensive attacks on the Austr
 
 Finally, with Russian resources beginning to run out, the Brusilov Offensive came to a close on September 20th, 1916. When it was all said and done, it became the costliest battle in terms of human lives in modern history.
 """,
-           imageName: "brusilov"),
+           imageName: "brusilov", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727)),
     
     Battle(title: "Mongol Sacking Of Baghdad, 1258", summary: ["29 January – 10 February 1258 (13 days)", "Baghdad, modern-day Iraq", "Mongol Victory", "Mongol occupied and rebuild Banghdad", "Abbasid Caliphate of Baghdad - Mongol Empire", "2 Millions"],
            description: """
@@ -126,6 +127,6 @@ The initial orders dispatched from Möngke Khan were not directed at overthrowin
 
 The blood-bathed city was forced to surrender to the destructive Mongols within only 12 days of the initial Mongol attacks. This battle also brought an inglorious end to the Islamic Golden Age and its many impressive cultural, scientific, and architectural achievements.
 """,
-           imageName: "baghdad")
+           imageName: "baghdad", locationCoordinate: CLLocationCoordinate2D(latitude: 10.786710386116287, longitude: 106.73818415444727))
 
 ]

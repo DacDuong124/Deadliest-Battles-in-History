@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import CoreLocation
 
 struct Battle: Identifiable{
     var id = UUID()
@@ -18,4 +19,6 @@ struct Battle: Identifiable{
     var image: Image{
         Image(imageName)
     }
+    var locationCoordinate: CLLocationCoordinate2D
+
 }

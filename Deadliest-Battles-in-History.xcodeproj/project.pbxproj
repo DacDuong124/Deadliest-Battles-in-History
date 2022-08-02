@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3649C38228994B90005E5A44 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649C38128994B90005E5A44 /* MapView.swift */; };
 		36501BEB2893D55F0030EFCB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36501BEA2893D55F0030EFCB /* SummaryView.swift */; };
 		36906CF52891431400CC2BA1 /* BattleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36906CF42891431400CC2BA1 /* BattleHeaderView.swift */; };
 		36AF91AB288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91AA288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3649C38128994B90005E5A44 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		36501BEA2893D55F0030EFCB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		36906CF42891431400CC2BA1 /* BattleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleHeaderView.swift; sourceTree = "<group>"; };
 		36AF91A7288ED02B00D0AF72 /* Deadliest-Battles-in-History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deadliest-Battles-in-History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 				36AF91BA288ED05C00D0AF72 /* BattleRow.swift */,
 				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
 				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
+				3649C38128994B90005E5A44 /* MapView.swift */,
 				36AF91AE288ED02C00D0AF72 /* Assets.xcassets */,
 			);
 			path = View;
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AF91C5288ED49200D0AF72 /* BattleDescriptionCard.swift in Sources */,
+				3649C38228994B90005E5A44 /* MapView.swift in Sources */,
 				36AF91C3288ED12300D0AF72 /* BattleList.swift in Sources */,
 				36AF91BB288ED05C00D0AF72 /* BattleRow.swift in Sources */,
 				36CFA430288FEBDF00A440F0 /* Battle.swift in Sources */,

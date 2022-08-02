@@ -31,6 +31,10 @@ struct BattleDescriptionCard: View {
                         //Description
                         DescriptionView(text: battle.description, imageName: "book.fill")
                         
+                        //Map View
+                        MapView(coordinate: battle.locationCoordinate)
+                            .edgesIgnoringSafeArea(.top)
+                            .frame(height: 250)
                         //Link
                         
                     })
