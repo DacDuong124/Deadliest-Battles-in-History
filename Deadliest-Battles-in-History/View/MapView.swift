@@ -17,13 +17,13 @@ struct MapView: View {
         Map(coordinateRegion: $region)
             .onAppear {
                 setRegion(coordinate)
-            }
+        }
     }
     
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
         region = MKCoordinateRegion(
             center: coordinate,
-            span: MKCoordinateSpan(latitudeDelta:0.004, longitudeDelta: 0.004)
+            span: MKCoordinateSpan(latitudeDelta:0.05, longitudeDelta: 0.05)
         
         )
     }

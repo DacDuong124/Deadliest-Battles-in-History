@@ -19,22 +19,34 @@ struct BattleDescriptionCard: View {
                     
                     VStack(alignment: .leading, spacing: 20, content:{
                         //Title
-                        Text(battle.title)
-                            .font(.largeTitle)
-                            .fontWeight(.heavy)
-                            .foregroundColor(.black)
+                        Group{
+                            Text(battle.title)
+                                .font(.largeTitle)
+                                .fontWeight(.heavy)
+                                .foregroundColor(.black)
+                            Text(battle.battleEra)
+                                .font(.system(size: 20))
+                                .fontWeight(.light)
+                                .foregroundColor(.brown)
+                        }
                         
+                 
                         //Summary bar
                         SummaryView(battle: battle)
                         
                         
                         //Description
-                        DescriptionView(text: battle.description, imageName: "book.fill")
+                        DescriptionView(text1: battle.description, text2: battle.fact, imageName: "book.fill")
                         
+
                         //Map View
+                        Text("Battle Location")
+                            .font(.system(size: 25))
+                            .fontWeight(.heavy)
+                            .foregroundColor(.black)
                         MapView(coordinate: battle.locationCoordinate)
                             .edgesIgnoringSafeArea(.top)
-                            .frame(height: 250)
+                            .frame(height: 350)
                         //Link
                         
                     })
@@ -56,6 +68,6 @@ struct BattleDescriptionCard: View {
 }
 struct BattleDescriptionCard_Previews: PreviewProvider {
     static var previews: some View {
-        BattleDescriptionCard(battle: battles[9])
+        BattleDescriptionCard(battle: battles[0])
     }
 }
