@@ -111,7 +111,7 @@ On the Soviet side, Joseph Stalin was determined to launch a major offensive in 
 
 The Battle of the Dnieper was another defeat for the Wehrmacht that required it to restabilize the front further West. The Red Army, which Hitler hoped to contain at the Dnieper, forced the Wehrmacht's defences. Kyiv was recaptured and German troops lacked the forces to annihilate Soviet troops on the Lower Dnieper bridgeheads. The west bank was still in German hands for the most part, but both sides knew that it would not last for long.The fatal casualties of the battle were as high as 1.58 million, proving this to be one of the costliest battles during World War II
 """,
-           fact:"", imageName: "dnieper", locationCoordinate: CLLocationCoordinate2D(latitude: 55.871689, longitude: 33.724189)),
+           fact:"Incidentally, between 28 November and 1 December 1943 the Tehran conference was held between Winston Churchill, Franklin D. Roosevelt, and Stalin. The Battle of the Dnieper, along with other major offensives staged in 1943, certainly gave Stalin a dominant position for negotiating with his Allies.", imageName: "dnieper", locationCoordinate: CLLocationCoordinate2D(latitude: 55.871689, longitude: 33.724189)),
     
     
     
@@ -127,7 +127,7 @@ His wish was granted, and thusly Brusilov led his offensive attacks on the Austr
 
 Finally, with Russian resources beginning to run out, the Brusilov Offensive came to a close on September 20th, 1916. When it was all said and done, it became the costliest battle in terms of human lives in modern history.
 """,
-           fact:"", imageName: "brusilov", locationCoordinate: CLLocationCoordinate2D(latitude: 50.745, longitude: 25.353806)),
+           fact:"Brusilov Offensive was the Russian Empire's greatest feat of arms during World War I, and among the most lethal offensives in world history. This is also the last major victory the Russian can achieved during this time of the war due to the political unrest at their homeland and the rise of Communism make it difficult for the army to continue with the war, creating the upcoming Russian Revolution in 1917.", imageName: "brusilov", locationCoordinate: CLLocationCoordinate2D(latitude: 50.745, longitude: 25.353806)),
     
     
     
@@ -141,6 +141,11 @@ The initial orders dispatched from Möngke Khan were not directed at overthrowin
 
 The blood-bathed city was forced to surrender to the destructive Mongols within only 12 days of the initial Mongol attacks. This battle also brought an inglorious end to the Islamic Golden Age and its many impressive cultural, scientific, and architectural achievements.
 """,
-           fact:"", imageName: "baghdad", locationCoordinate: CLLocationCoordinate2D(latitude: 33.333333, longitude: 44.383333))
+           fact:"""
+Berke, one of the grandson of the famous Genghis Khan, who had converted to Islam in 1252, became enraged that Hulagu destroyed Baghdad. Muslim historian Rashid al Din quoted Berke Khan as sending the following message to Mongke Khan, protesting the attack on Baghdad, (not knowing Mongke had died in China): ''He (Hulagu) has sacked all the cities of the Muslims. With the help of God I will call him to account for so much innocent blood''.
+
+Although hesitant at first to go to war with Hulagu out of Mongol brotherhood, the economic situation of the Golden Horde led him to declare war against Hulagu. This became known as the Berke–Hulagu war.
+""",
+           imageName: "baghdad", locationCoordinate: CLLocationCoordinate2D(latitude: 33.333333, longitude: 44.383333))
 
 ]

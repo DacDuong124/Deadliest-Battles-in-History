@@ -14,7 +14,6 @@ struct BattleHeaderView: View {
         ZStack{
             Image(battle.imageName)
                 .resizable()
-//                .scaledToFit()
                 .padding(15)
             
         }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361F9232289BDAFB009493A7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F9231289BDAFB009493A7 /* WelcomeView.swift */; };
 		3649C38228994B90005E5A44 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649C38128994B90005E5A44 /* MapView.swift */; };
 		36501BEB2893D55F0030EFCB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36501BEA2893D55F0030EFCB /* SummaryView.swift */; };
 		36906CF52891431400CC2BA1 /* BattleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36906CF42891431400CC2BA1 /* BattleHeaderView.swift */; };
@@ -21,11 +22,11 @@
 		36AF91C5288ED49200D0AF72 /* BattleDescriptionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */; };
 		36CFA430288FEBDF00A440F0 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFA42F288FEBDF00A440F0 /* Battle.swift */; };
 		36CFA4322890179700A440F0 /* ColorConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CFA4312890179700A440F0 /* ColorConst.swift */; };
-		36D15E8C289A939C00EC46FE /* BattleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D15E8B289A939C00EC46FE /* BattleImage.swift */; };
 		36D15E8E289A99C100EC46FE /* FactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D15E8D289A99C100EC46FE /* FactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361F9231289BDAFB009493A7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3649C38128994B90005E5A44 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		36501BEA2893D55F0030EFCB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		36906CF42891431400CC2BA1 /* BattleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleHeaderView.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleDescriptionCard.swift; sourceTree = "<group>"; };
 		36CFA42F288FEBDF00A440F0 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
 		36CFA4312890179700A440F0 /* ColorConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConst.swift; sourceTree = "<group>"; };
-		36D15E8B289A939C00EC46FE /* BattleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleImage.swift; sourceTree = "<group>"; };
 		36D15E8D289A99C100EC46FE /* FactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +104,7 @@
 		36AF91B9288ED03B00D0AF72 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				361F9231289BDAFB009493A7 /* WelcomeView.swift */,
 				36906CF42891431400CC2BA1 /* BattleHeaderView.swift */,
 				36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */,
 				36501BEA2893D55F0030EFCB /* SummaryView.swift */,
@@ -114,7 +115,6 @@
 				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
 				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
 				36AF91AE288ED02C00D0AF72 /* Assets.xcassets */,
-				36D15E8B289A939C00EC46FE /* BattleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,7 +192,6 @@
 				36AF91C5288ED49200D0AF72 /* BattleDescriptionCard.swift in Sources */,
 				3649C38228994B90005E5A44 /* MapView.swift in Sources */,
 				36AF91C3288ED12300D0AF72 /* BattleList.swift in Sources */,
-				36D15E8C289A939C00EC46FE /* BattleImage.swift in Sources */,
 				36AF91BB288ED05C00D0AF72 /* BattleRow.swift in Sources */,
 				36CFA430288FEBDF00A440F0 /* Battle.swift in Sources */,
 				36D15E8E289A99C100EC46FE /* FactView.swift in Sources */,
@@ -203,6 +202,7 @@
 				36AF91BD288ED07D00D0AF72 /* DescriptionView.swift in Sources */,
 				36906CF52891431400CC2BA1 /* BattleHeaderView.swift in Sources */,
 				36501BEB2893D55F0030EFCB /* SummaryView.swift in Sources */,
+				361F9232289BDAFB009493A7 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
