@@ -11,21 +11,12 @@ struct WelcomeView: View {
     @State var isWelcomeActive: Bool = true
     var body: some View {
         ZStack{
-            if isWelcomeActive{
-                //Show Welcome Screen
-                Button(action: {
-                    isWelcomeActive = false
-                }, label: {
-                    Text("Get started!")
-                
-                })
+            if isWelcomeActive {
+                WelcomeCard(active: $isWelcomeActive)
             } else {
-                //Show the list of battles
                 BattleList()
             }
-            
         }
-        
     }
 }
 

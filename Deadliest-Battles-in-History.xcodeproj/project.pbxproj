@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		361F9232289BDAFB009493A7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F9231289BDAFB009493A7 /* WelcomeView.swift */; };
+		361F9236289BECB1009493A7 /* WelcomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F9235289BECB1009493A7 /* WelcomeCard.swift */; };
 		3649C38228994B90005E5A44 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649C38128994B90005E5A44 /* MapView.swift */; };
 		36501BEB2893D55F0030EFCB /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36501BEA2893D55F0030EFCB /* SummaryView.swift */; };
 		36906CF52891431400CC2BA1 /* BattleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36906CF42891431400CC2BA1 /* BattleHeaderView.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		361F9231289BDAFB009493A7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		361F9235289BECB1009493A7 /* WelcomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCard.swift; sourceTree = "<group>"; };
 		3649C38128994B90005E5A44 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		36501BEA2893D55F0030EFCB /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		36906CF42891431400CC2BA1 /* BattleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleHeaderView.swift; sourceTree = "<group>"; };
@@ -104,7 +106,9 @@
 		36AF91B9288ED03B00D0AF72 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
 				361F9231289BDAFB009493A7 /* WelcomeView.swift */,
+				361F9235289BECB1009493A7 /* WelcomeCard.swift */,
 				36906CF42891431400CC2BA1 /* BattleHeaderView.swift */,
 				36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */,
 				36501BEA2893D55F0030EFCB /* SummaryView.swift */,
@@ -113,7 +117,6 @@
 				36AF91C4288ED49200D0AF72 /* BattleDescriptionCard.swift */,
 				36AF91BA288ED05C00D0AF72 /* BattleRow.swift */,
 				36AF91C2288ED12300D0AF72 /* BattleList.swift */,
-				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
 				36AF91AE288ED02C00D0AF72 /* Assets.xcassets */,
 			);
 			path = View;
@@ -197,6 +200,7 @@
 				36D15E8E289A99C100EC46FE /* FactView.swift in Sources */,
 				36AF91C1288ED0C000D0AF72 /* BattleData.swift in Sources */,
 				36AF91AD288ED02B00D0AF72 /* ContentView.swift in Sources */,
+				361F9236289BECB1009493A7 /* WelcomeCard.swift in Sources */,
 				36CFA4322890179700A440F0 /* ColorConst.swift in Sources */,
 				36AF91AB288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift in Sources */,
 				36AF91BD288ED07D00D0AF72 /* DescriptionView.swift in Sources */,

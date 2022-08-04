@@ -99,7 +99,7 @@ However, retaliation by a powerful Allied army, the inability to move German sup
     
     
     
-    Battle(title: "Battle Of Dnieper, 1943", battleEra: "World War 2", summary: ["26 August 1943 – 23 December 1943 (3 months, 3 weeks and 6 days)", "Dnieper River, Soviet Union", "Soviet Union Victory", "Soviets reclaim left-bank Ukraine, including the city of Kiev and Donets basin", "Soviet Union - Nazi Germany", "1.58 Millions"],
+    Battle(title: "Battle Of The Dnieper, 1943", battleEra: "World War 2", summary: ["26 August 1943 – 23 December 1943 (3 months, 3 weeks and 6 days)", "Dnieper River, Soviet Union", "Soviet Union Victory", "Soviets reclaim left-bank Ukraine, including the city of Kiev and Donets basin", "Soviet Union - Nazi Germany", "1.58 Millions"],
            description: """
 In 1943, the Battle of the Dnieper, one of the largest of all World War II operations, was launched, involving as many as 4,000,000 troops on both sides, and stretching across 1,400 kilometers of the Eastern Front.
 
