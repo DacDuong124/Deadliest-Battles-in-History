@@ -11,37 +11,38 @@ struct WelcomeCard: View {
     @Binding var active: Bool
     var body: some View {
         ZStack{
-            VStack(spacing: 20){
+            VStack{
                 Spacer()
-                VStack(spacing: 0) {
+                VStack {
                     Text("Welcome")
                       .font(.system(size: 60))
                       .fontWeight(.heavy)
                       .foregroundColor(.black)
                     Text("""
-                    blah blah
+                    Here is the list of major conflicts that has the most casualties in human history
                     """)
                       .font(.title3)
                       .fontWeight(.light)
                       .foregroundColor(.black)
                       .multilineTextAlignment(.center)
                       .padding(.horizontal, 10)
-                
                 }
+                
+                SwipeView()
                 
                 Button(action: {
                     active = false
                 }, label:{
                     Capsule()
-                        .fill(Color.white.opacity(0.2))
+                        .fill(Color.black.opacity(1))
                         .padding(8)
                         .frame(height:80)
                         .overlay(Text("Get Started !"))
-                        
+                        .foregroundColor(.red)
                         
                 })
             }
-        }
+        }.background(.tertiary)
     }
 }
 

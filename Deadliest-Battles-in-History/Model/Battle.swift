@@ -12,6 +12,7 @@ import CoreLocation
 struct Battle: Identifiable{
     var id = UUID()
     var title: String
+    var headline: String
     var battleEra: String
     var summary:[String]
     var description: String

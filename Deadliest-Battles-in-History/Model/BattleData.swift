@@ -10,7 +10,7 @@ import CoreLocation
 
 var battles:[Battle] = [
     
-    Battle(title: "Siege Of Leningrad, 1941-1944 ", battleEra: "World War 2", summary: ["8 September 1941 – 27 January 1944 (2 years, 4 months, 2 weeks and 5 days)", "Leningrad (present day Saint Petersburgh), Russian SFSR, Soviet Union", "Soviet Union Victory (Siege lifted by Soviet forces)", "Axis forces are repelled 60–100 km (37–62 mi) away from Leningrad.", "Soviet Union - Nazi Germany", "1.5 Millions"],
+    Battle(title: "Siege Of Leningrad, 1941-1944 ", headline: "The siege of Leningrad, also known as the 900-Day Siege though it lasted a grueling 872 days, resulted in the deaths of some one million of the city's civilians and Red Army defenders. Leningrad, formerly St. Petersburg, capital of the Russian Empire, was one of the initial targets of the German invasion of June 1941.", battleEra: "World War 2", summary: ["8 September 1941 – 27 January 1944 (2 years, 4 months, 2 weeks and 5 days)", "Leningrad (present day Saint Petersburgh), Russian SFSR, Soviet Union", "Soviet Union Victory (Siege lifted by Soviet forces)", "Axis forces are repelled 60–100 km (37–62 mi) away from Leningrad.", "Soviet Union - Nazi Germany", "1.5 Millions"],
            description:"""
 The Siege of Leningrad marks one of the darkest periods of World War II, as German and Finnish armed forces sieged the city of Leningrad in the Soviet Union, leading to 1.5 million casualties over a period of around 872 days. The siege began on September 8, 1941 and continued until January 27, 1944.
            
@@ -23,7 +23,7 @@ In 1943, Soviet troops managed to rupture the German encirclement, allowing more
            fact:"Beginning on 8 September 1941, the siege was not fully lifted until 27 January 1944 (lasted 872 days), making it one of the longest and costliest (in terms of human life) sieges in history. It’s thought around 1.2 million citizens perished during the siege.", imageName: "leningrad", locationCoordinate: CLLocationCoordinate2D(latitude: 59.930248, longitude: 30.319061)),
    
     
-    Battle(title: "The Somme, 1916", battleEra: "World War 1", summary: ["1 July 1916 – 18 November 1916 (141 days)", "Somme River, France", "Indecisive", "Bulge driven into the Noyon salient", "France, British Empire - German Empire", "1.12 Millions"],
+    Battle(title: "The Somme, 1916", headline:"The Battle of the Somme (1 July - 18 November 1916) was a joint operation between British and French forces intended to achieve a decisive victory over the Germans on the Western Front. For many in Britain, the resulting battle remains the most painful and infamous episode of the First World War.", battleEra: "World War 1", summary: ["1 July 1916 – 18 November 1916 (141 days)", "Somme River, France", "Indecisive", "Bulge driven into the Noyon salient", "France, British Empire - German Empire", "1.12 Millions"],
            description:"""
 The Somme Offensive, or the Battle of the Somme, was an epic World War I battle fought in Somme, France, by the British and French forces against those of the Germans. It occurred between July 1st, 1916 and November 18th, 1916. The battle claimed the lives of nearly 1.12 million civilians and military men.
 
@@ -35,7 +35,7 @@ The battle was known for its focus on air power and, towards the end, the Allied
     
     
     
-    Battle(title: "Battle Of Stalingrad, 1942-1943", battleEra: "World War 2", summary: ["23 August 1942 – 2 February 1943 (5 months, 1 week and 3 days)", "Stalingrad (present day Volgograd), Russian SFSR, Soviet Union", "Soviet Union Victory", "Expulsion of the Axis from the Caucasus", "Soviet Union - Nazi Germany, Romania, Italy, Croatia", "1.25 Millions"],
+    Battle(title: "Battle Of Stalingrad, 1942-1943", headline:"Stalingrad was one of the most decisive battles on the Eastern Front in the Second World War. The Soviet Union inflicted a catastrophic defeat on the German Army in and around this strategically important city on the Volga river, which bore the name of the Soviet leader, Josef Stalin.", battleEra: "World War 2", summary: ["23 August 1942 – 2 February 1943 (5 months, 1 week and 3 days)", "Stalingrad (present day Volgograd), Russian SFSR, Soviet Union", "Soviet Union Victory", "Expulsion of the Axis from the Caucasus", "Soviet Union - Nazi Germany, Romania, Italy, Croatia", "1.25 Millions"],
            description:"""
 The Battle of Stalingrad marked a significant turning point in World War II, as the German forces suffered a massive attack and defeat in Russia. The battle ensued when Hitler ordered his troops, who were advancing towards the Caucasus, to move back and attack the Russian city of Stalingrad.
 
@@ -47,7 +47,7 @@ The consequences were deadly, as the rival forces fought fiercely, often engagin
     
     
     
-    Battle(title: "Battle of Wuhan, 1938", battleEra: "World War 2", summary: ["11 June – 27 October 1938 (4 months, 2 weeks, and 2 days)", "Wuhan and surrounding provinces (Anhui, Henan, Jiangxi, Hubei)", "Japanese Victory", "Capture of Wuhan by Japanese forces after Chinese withdrawal", "China, Soviet Volunteer - Japan", "1.2 Millions"],
+    Battle(title: "Battle of Wuhan, 1938", headline:"The Battle of Wuhan was a Japanese attack on the Chinese city of Wuhan during the Second Sino-Japanese War. The battle started on February 1938 and ended on October 1938. The city of Wuhan had a military base with 1,100,000 Chinese soldiers. The Japanese, planned to encircle and invade Wuchang. In October, the Chinese army was able to retreat out of Wuhan.", battleEra: "World War 2", summary: ["11 June – 27 October 1938 (4 months, 2 weeks, and 2 days)", "Wuhan and surrounding provinces (Anhui, Henan, Jiangxi, Hubei)", "Japanese Victory", "Capture of Wuhan by Japanese forces after Chinese withdrawal", "China, Soviet Volunteer - Japan", "1.2 Millions"],
            description:"""
 The Battle of Wuhan, popularly known to the Chinese as the Defense of Wuhan, and to the Japanese as the Capture of Wuhan, was a large-scale battle of the Second Sino-Japanese War. Engagements took place across vast areas of Anhui, Henan, Jiangxi, Zhejiang, and Hubei provinces over a period of four and a half months.
 
@@ -59,7 +59,7 @@ Although the battle ended with the eventual capture of Wuhan by the Japanese for
     
     
     
-    Battle(title: "Battle Of Berlin, 1945", battleEra: "World War 2", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
+    Battle(title: "Battle Of Berlin, 1945", headline:"The Battle of Berlin is remembered today as one of the most significant battles of World War II because it is the battle that saw the end of Nazi Germany and ended World War II in Europe.  The Battle of Berlin occurred from April 16th 1945 to May 2nd, 1945 and was fought between the Soviet Union and Nazi Germany in the German capital of Berlin.", battleEra: "World War 2", summary: ["16 April – 2 May 1945 (2 weeks and 2 days)", "Berlin, Nazi Germany", "Soviet Union Victory", "Soviets occupy what would become East Germany during the Partition of Germany later that year.", "Soviet Union - Nazi Germany", "1.3 Millions"],
            description: """
 This was the culmination in the final series of events leading to the downfall of Hitler and the Nazi Germans. It began on April 16, 1945, when 20 army troop regiments, 8,500 aircrafts, and 6,300 tanks were unleashed by the Russian dictator Josef Stalin.
 
@@ -73,7 +73,7 @@ The Russians' arrival and taking of Berlin before the Americans could arrive wou
     
     
     
-    Battle(title: "Battle of Verdun", battleEra: "World War 1", summary: ["21 February – 18 December 1916 (9 months, 3 weeks and 6 days)", "Région Fortifiée de Verdun (RFV) Verdun-sur-Meuse, France", "French victory", "None", "France - German Empire", "~ 1.2 Millions"],
+    Battle(title: "Battle of Verdun", headline:"Battle of Verdun, (February 21–December 18, 1916), World War I engagement in which the French repulsed a major German offensive. It was one of the longest, bloodiest, and most-ferocious battles of the war with many French and German  lost their lives.", battleEra: "World War 1", summary: ["21 February – 18 December 1916 (9 months, 3 weeks and 6 days)", "Région Fortifiée de Verdun (RFV) Verdun-sur-Meuse, France", "French victory", "None", "France - German Empire", "~ 1.2 Millions"],
            description: """
 The Battle of Verdun was fought from 21 February to 18 December 1916 on the Western Front in France. The battle was the longest of the First World War and took place on the hills north of Verdun-sur-Meuse.
 
@@ -87,7 +87,7 @@ In September and December, French counter-offensives recaptured much ground on t
     
     
     
-    Battle(title: "German Spring Offensive, 1918", battleEra: "World War 1", summary: ["21 March – 18 July 1918     (119 days)", "Northern France; West Flanders, Belgium", "Indecisive", "German armies make gains along sections of the Western Front.", "France, UK, US, Italy, Belgium - German Empire", "1.55 Millions"],
+    Battle(title: "German Spring Offensive, 1918", headline:"The Spring Offensives of 1918 were Germany's last attempt to defeat the British and French armies on the Western Front, and thereby win total victory. Their failure by the mid-summer left the German army fatally weakened, demoralized and facing its own imminent and inevitable defeat through an Allied counteroffensive.", battleEra: "World War 1", summary: ["21 March – 18 July 1918 (119 days)", "Northern France; West Flanders, Belgium", "Indecisive", "German armies make gains along sections of the Western Front.", "France, UK, US, Italy, Belgium - German Empire", "1.55 Millions"],
            description: """
 During the final parts of World War I, the Germans launched a series of attacks, referred to as the Spring Offensive, on the Western Front, starting on March 21st, 1918.
 
@@ -99,7 +99,7 @@ However, retaliation by a powerful Allied army, the inability to move German sup
     
     
     
-    Battle(title: "Battle Of The Dnieper, 1943", battleEra: "World War 2", summary: ["26 August 1943 – 23 December 1943 (3 months, 3 weeks and 6 days)", "Dnieper River, Soviet Union", "Soviet Union Victory", "Soviets reclaim left-bank Ukraine, including the city of Kiev and Donets basin", "Soviet Union - Nazi Germany", "1.58 Millions"],
+    Battle(title: "Battle Of The Dnieper, 1943", headline:"The Battle of the Dnieper was a military campaign that took place in 1943 in Ukraine on the Eastern Front of World War II. One of the largest operations of the war, it involved almost 4,000,000 troops at a time stretched on a 1,400 kilometres (870 mi) front.", battleEra: "World War 2", summary: ["26 August 1943 – 23 December 1943 (3 months, 3 weeks and 6 days)", "Dnieper River, Soviet Union", "Soviet Union Victory", "Soviets reclaim left-bank Ukraine, including the city of Kiev and Donets basin", "Soviet Union - Nazi Germany", "1.58 Millions"],
            description: """
 In 1943, the Battle of the Dnieper, one of the largest of all World War II operations, was launched, involving as many as 4,000,000 troops on both sides, and stretching across 1,400 kilometers of the Eastern Front.
 
@@ -115,7 +115,7 @@ The Battle of the Dnieper was another defeat for the Wehrmacht that required it 
     
     
     
-    Battle(title: "Brusilov Offensive, 1916", battleEra: "World War 1", summary: ["4 June – 20 September 1916 (3 months and 16 days)", "Galicia, Volhynia, present-day western Ukraine.", "Russian Victory", "None", "Russian Empire - Austria Hungary, German Empire, Ottoman Empire", "1.6 Millions"],
+    Battle(title: "Brusilov Offensive, 1916", headline:"The Brusilov Offensive was the high point of the Russian effort during World War I, and was a manifestation of good leadership and planning on the part of the Imperial Russian Army coupled with great skill of the lower ranks.", battleEra: "World War 1", summary: ["4 June – 20 September 1916 (3 months and 16 days)", "Galicia, Volhynia, present-day western Ukraine.", "Russian Victory", "None", "Russian Empire - Austria Hungary, German Empire, Ottoman Empire", "1.6 Millions"],
            description: """
 The Brusilov Offensive, which took place between June and August of 1916, was a major success for the Russians, who had until then mostly suffered large defeats at the hands of the German forces and their Central Power allies.
 
@@ -131,7 +131,7 @@ Finally, with Russian resources beginning to run out, the Brusilov Offensive cam
     
     
     
-    Battle(title: "Mongol Sacking Of Baghdad, 1258", battleEra: "Medieval War", summary: ["29 January – 10 February 1258 (13 days)", "Baghdad, modern-day Iraq", "Mongol Victory", "Mongol occupied and rebuild Banghdad", "Abbasid Caliphate of Baghdad - Mongol Empire", "2 Millions"],
+    Battle(title: "Mongol Sacking Of Baghdad, 1258", headline:"The siege of Baghdad was a siege that took place in Baghdad in 1258, lasting for 13 days from January 29, 1258 until February 10, 1258. The siege, laid by Ilkhanate Mongol forces and allied troops, involved the investment, capture, and sack of Baghdad, which was the capital of the Abbasid Caliphate at that time.", battleEra: "Medieval War", summary: ["29 January – 10 February 1258 (13 days)", "Baghdad, modern-day Iraq", "Mongol Victory", "Mongol occupied and rebuild Banghdad", "Abbasid Caliphate of Baghdad - Mongol Empire", "2 Millions"],
            description: """
 Though the previous nine deadly battles all belonged to the World War I and World War II eras, the most treacherous recorded battle in the history of the world in terms of death tolls was waged a much longer time back.
 

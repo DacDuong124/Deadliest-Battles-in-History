@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36003386289D0AD000D98B26 /* BattleIntroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36003385289D0AD000D98B26 /* BattleIntroCard.swift */; };
+		36003389289D14E600D98B26 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36003388289D14E600D98B26 /* SwipeView.swift */; };
 		361F9232289BDAFB009493A7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F9231289BDAFB009493A7 /* WelcomeView.swift */; };
 		361F9236289BECB1009493A7 /* WelcomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F9235289BECB1009493A7 /* WelcomeCard.swift */; };
 		3649C38228994B90005E5A44 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649C38128994B90005E5A44 /* MapView.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36003385289D0AD000D98B26 /* BattleIntroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleIntroCard.swift; sourceTree = "<group>"; };
+		36003388289D14E600D98B26 /* SwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
 		361F9231289BDAFB009493A7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		361F9235289BECB1009493A7 /* WelcomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCard.swift; sourceTree = "<group>"; };
 		3649C38128994B90005E5A44 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36003387289D0ADE00D98B26 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				361F9231289BDAFB009493A7 /* WelcomeView.swift */,
+				361F9235289BECB1009493A7 /* WelcomeCard.swift */,
+				36003385289D0AD000D98B26 /* BattleIntroCard.swift */,
+				36003388289D14E600D98B26 /* SwipeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		36AF919E288ED02B00D0AF72 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +114,7 @@
 				36CFA42F288FEBDF00A440F0 /* Battle.swift */,
 				36AF91C0288ED0C000D0AF72 /* BattleData.swift */,
 				36CFA4312890179700A440F0 /* ColorConst.swift */,
+				36003387289D0ADE00D98B26 /* Welcome */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				36AF91AC288ED02B00D0AF72 /* ContentView.swift */,
-				361F9231289BDAFB009493A7 /* WelcomeView.swift */,
-				361F9235289BECB1009493A7 /* WelcomeCard.swift */,
 				36906CF42891431400CC2BA1 /* BattleHeaderView.swift */,
 				36AF91BC288ED07D00D0AF72 /* DescriptionView.swift */,
 				36501BEA2893D55F0030EFCB /* SummaryView.swift */,
@@ -194,11 +208,13 @@
 			files = (
 				36AF91C5288ED49200D0AF72 /* BattleDescriptionCard.swift in Sources */,
 				3649C38228994B90005E5A44 /* MapView.swift in Sources */,
+				36003386289D0AD000D98B26 /* BattleIntroCard.swift in Sources */,
 				36AF91C3288ED12300D0AF72 /* BattleList.swift in Sources */,
 				36AF91BB288ED05C00D0AF72 /* BattleRow.swift in Sources */,
 				36CFA430288FEBDF00A440F0 /* Battle.swift in Sources */,
 				36D15E8E289A99C100EC46FE /* FactView.swift in Sources */,
 				36AF91C1288ED0C000D0AF72 /* BattleData.swift in Sources */,
+				36003389289D14E600D98B26 /* SwipeView.swift in Sources */,
 				36AF91AD288ED02B00D0AF72 /* ContentView.swift in Sources */,
 				361F9236289BECB1009493A7 /* WelcomeCard.swift in Sources */,
 				36CFA4322890179700A440F0 /* ColorConst.swift in Sources */,
