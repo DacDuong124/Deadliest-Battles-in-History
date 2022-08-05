@@ -14,7 +14,7 @@ struct WelcomeCard: View {
             VStack{
                 Spacer()
                 VStack {
-                    Text("Welcome")
+                    Text("Welcome !")
                       .font(.system(size: 60))
                       .fontWeight(.heavy)
                       .foregroundColor(.black)

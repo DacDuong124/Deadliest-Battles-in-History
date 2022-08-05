@@ -9,18 +9,21 @@ import SwiftUI
 
 struct FactView: View {
     let text:String
-    
     var body: some View {
         
-        //Using Zstack to cover the description background with color
-        ZStack{
-            Color(.yellow)
-            VStack{
+        GroupBox{
+            DisclosureGroup(" 🔎  Did you know ? ")
+            {
                 Text(text)
                     .foregroundColor(.black)
-                    .padding(20)
+                    .font(Font.system(.body).italic())
+                    .padding(5)
             }
         }
+        .foregroundColor(.green)
+            .font(.system(size: 28))
+
+        
     }
 }
 

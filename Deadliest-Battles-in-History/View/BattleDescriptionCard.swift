@@ -36,7 +36,10 @@ struct BattleDescriptionCard: View {
                         
                         
                         //Description
-                        DescriptionView(text1: battle.description, text2: battle.fact, imageName: "book.fill")
+                        DescriptionView(text: battle.description, imageName: "book.fill")
+                        
+                        //Did you know ?
+                        FactView(text: battle.fact)
                         
 
                         //Map View
