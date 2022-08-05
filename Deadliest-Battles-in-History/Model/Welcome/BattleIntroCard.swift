@@ -42,7 +42,6 @@ struct BattleIntroCard: View {
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .padding(25)
         .background(.cyan)
-        
     }
 }
 

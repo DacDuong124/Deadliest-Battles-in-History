@@ -33,10 +33,13 @@ struct SummaryView: View {
                         Text(battle.summary[item])
                             .multilineTextAlignment(.trailing) //Align the text information
                             .font(Font.system(.body).bold())
+                            .foregroundColor(.black)
+
                 }
                 
             }
         }
+            .foregroundColor(.indigo)
     }
 }
 

@@ -18,7 +18,7 @@ struct BattleList: View {
                 } label: {
                 BattleRow(battle: battle)
                 }
-                .navigationTitle("Deadliest Battles ⚔️")
+                .navigationTitle(" Deadliest Battles 💥  ")
             }
         }
     }

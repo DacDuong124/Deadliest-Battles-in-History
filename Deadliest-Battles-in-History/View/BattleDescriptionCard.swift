@@ -12,12 +12,12 @@ struct BattleDescriptionCard: View {
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: true, content: {
-                VStack(alignment: .center, spacing: 30, content: {
+                VStack(alignment: .center, spacing: 10, content: {
                     
                     //Header
                     BattleHeaderView(battle: battle)
                     
-                    VStack(alignment: .leading, spacing: 20, content:{
+                    VStack(alignment: .leading, spacing: 15, content:{
                         //Title
                         Group{
                             Text(battle.title)
@@ -50,13 +50,11 @@ struct BattleDescriptionCard: View {
                         //Link
                         
                     })
-                    .padding(.horizontal,5)
+                    .padding(.horizontal,10)
                     .frame(maxWidth: 700, alignment: .center)
-                    
-                    
+                
                 })
 
-                
             })
                 .edgesIgnoringSafeArea(.top)
 

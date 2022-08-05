@@ -22,7 +22,7 @@ struct WelcomeCard: View {
                     Here is the list of major conflicts that has the most casualties in human history
                     """)
                       .font(.title3)
-                      .fontWeight(.light)
+                      .fontWeight(.medium)
                       .foregroundColor(.black)
                       .multilineTextAlignment(.center)
                       .padding(.horizontal, 10)
@@ -37,7 +37,7 @@ struct WelcomeCard: View {
                         .fill(Color.black.opacity(1))
                         .padding(8)
                         .frame(height:80)
-                        .overlay(Text("Get Started !"))
+                        .overlay(Text("⚔️ START ⚔️"))
                         .foregroundColor(.red)
                         
                 })
