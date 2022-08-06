@@ -73,7 +73,7 @@ The Russians' arrival and taking of Berlin before the Americans could arrive wou
     
     
     
-    Battle(title: "Battle of Verdun", headline:"Battle of Verdun, (February 21–December 18, 1916), World War I engagement in which the French repulsed a major German offensive. It was one of the longest, bloodiest, and most-ferocious battles of the war with many French and German  lost their lives.", battleEra: "World War 1", summary: ["21 February – 18 December 1916 (9 months, 3 weeks and 6 days)", "Région Fortifiée de Verdun (RFV) Verdun-sur-Meuse, France", "French victory", "None", "France - German Empire", "~ 1.2 Millions"],
+    Battle(title: "Battle of Verdun, 1916", headline:"Battle of Verdun, (February 21–December 18, 1916), World War I engagement in which the French repulsed a major German offensive. It was one of the longest, bloodiest, and most-ferocious battles of the war with many French and German  lost their lives.", battleEra: "World War 1", summary: ["21 February – 18 December 1916 (9 months, 3 weeks and 6 days)", "Région Fortifiée de Verdun (RFV) Verdun-sur-Meuse, France", "French victory", "None", "France - German Empire", "~ 1.2 Millions"],
            description: """
 The Battle of Verdun was fought from 21 February to 18 December 1916 on the Western Front in France. The battle was the longest of the First World War and took place on the hills north of Verdun-sur-Meuse.
 

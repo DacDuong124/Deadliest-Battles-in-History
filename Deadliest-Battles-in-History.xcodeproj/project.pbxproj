@@ -92,6 +92,7 @@
 			children = (
 				36AF91AA288ED02B00D0AF72 /* Deadliest_Battles_in_HistoryApp.swift */,
 				36AF91B8288ED03400D0AF72 /* Model */,
+				36003387289D0ADE00D98B26 /* Welcome */,
 				36AF91B9288ED03B00D0AF72 /* View */,
 				36AF91B0288ED02C00D0AF72 /* Preview Content */,
 			);
@@ -111,7 +112,6 @@
 			children = (
 				36CFA42F288FEBDF00A440F0 /* Battle.swift */,
 				36AF91C0288ED0C000D0AF72 /* BattleData.swift */,
-				36003387289D0ADE00D98B26 /* Welcome */,
 			);
 			path = Model;
 			sourceTree = "<group>";
